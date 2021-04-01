@@ -1,0 +1,122 @@
+.style_drop
+{
+    font-family: 'RocknRoll One', sans-serif;
+}
+.style_nav_buttons
+{
+    font-family: 'Roboto Slab', serif;
+
+}
+.nav_main
+{
+    font-family: 'Akaya Kanadaka', cursive;
+}
+body {
+    margin: 20px;
+    background-image: url('https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=600');
+    
+}
+
+#canvas {
+    padding: 0;
+    margin: 0px;
+    margin-top: 30px;
+    margin-left: 50px;
+    display: block;
+    background-color: #c6cccc;
+    
+}
+.start {
+    color: #59d3de;
+}
+
+.end {
+    color: #2284e6;
+}
+.panel {
+    position: fixed;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 6px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: default;
+}
+#instructions_panel {
+    top: 10%;
+    left: 85%;
+    width: 200px;
+}
+.header_title {
+    font-size: 120%;
+    font-weight: bold;
+    padding-bottom: 0px;
+
+    margin-top: 0px;
+}
+
+
+.panel {
+    position: fixed;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    border-radius: 8px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    cursor: default;
+}
+p{
+    font-size: 20px;
+    font-family: cursive;
+}
+
+body > h1 {
+    text-align: left;
+    font-family: Impact, fantasy;
+    color: #000000;
+    padding: 10px 0px;
+    font-size: 50px;
+}
+.info {
+    color: #ffffff;
+    font-family: Roboto, sans-serif;
+    text-align: left;
+    padding: 10px;
+}
+h2,h3,h4,#distance,#time,#searched {
+    display: inline;
+    font-size: 20px;
+}
+#distance {
+    padding-right: 10px;
+}
+#time {
+    padding-right: 10px;
+}
+#searched {
+    padding-right: 10px;
+}
+
+
+.button {
+    
+    
+    text-decoration: none;
+    
+    
+  }
+  
+  .button:hover{
+    background-color: rgb(226, 166, 55);
+    cursor: pointer;
+}
+  .buttons {
+    text-align: center;
+    padding-top: 15px;
+}
+
+::selection {
+    background: #aacfcf;
+}
+
+/*#c5e3f6 (blue), #fc5c9c (darkpink), #fccde2
